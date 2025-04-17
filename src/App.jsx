@@ -11,7 +11,7 @@ const initialGameBoard = [
   [null, null, null],
 ];
 function derivedActivePlayer(gameTurn) {
-  let currentPlayer = "X";
+  let currentPlayer = "X"
 
   if (gameTurn.length > 0 && gameTurn[0].player === "X") {
     currentPlayer = "O";
